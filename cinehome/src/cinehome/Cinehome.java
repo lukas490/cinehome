@@ -12,7 +12,6 @@ public class Cinehome {
         filmeService filmeService = new filmeService();
         usuarioService usuarioService = new usuarioService();
 
-        // Criar e salvar filme
         filmes f = new filmes();
         f.setIdUsuario(1); 
         f.setNome("Matrix");
